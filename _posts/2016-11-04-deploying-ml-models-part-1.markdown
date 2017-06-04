@@ -42,9 +42,9 @@ if __name__ == '__main__':
 
 To run this:
 
-        Save it as simple_app.py
-        Install Flask in your virtual environment [pip install Flask]
-        Open terminal, go to the directory where app.py is saved. Run following two commands
+    1. Save it as simple_app.py    
+    2. Install Flask in your virtual environment [pip install Flask]     
+    3. Open terminal, go to the directory where app.py is saved. Run following two commands     
 
 ```python
 export FLASK_APP=simple_app.py

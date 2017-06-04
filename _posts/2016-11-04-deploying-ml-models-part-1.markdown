@@ -54,8 +54,8 @@ flask run
 This should have the flask server up and running on http://127.0.0.1:5000
 
 <div class="imgcap">
-<img src="/assets/ml_models_1/adviser.gif">
-<div class="thecap">Image credit: <a href="http://www.phdcomics.com/comics/archive.php?comicid=1001">PhD comics</a>.</div>
+<img src="/assets/ml_models_1/image_1.png">
+<div class="thecap">Flask Server up and running</div>
 </div>
 
 
@@ -65,8 +65,8 @@ If you see the code carefully it says - we have 2 resources with relative URIs a
 This should fire the function index_1() function and give the following output on the command prompt
 
 <div class="imgcap">
-<img src="/assets/ml_models_1/adviser.gif">
-<div class="thecap">Image credit: <a href="http://www.phdcomics.com/comics/archive.php?comicid=1001">PhD comics</a>.</div>
+<img src="/assets/ml_models_1/image_2.png">
+<div class="thecap">Output from function index_1()</div>
 </div>
 
 Like wise http://127.0.0.1:5000/2 should work. This is a simple flask application. (Oh yeah! this sounds easy, lets move on)

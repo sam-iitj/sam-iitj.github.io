@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "A Survival Guide to a PhD"
+title:  "Testing"
 excerpt: "A collection of tips/tricks for navigating the PhD experience."
-date:   2016-09-07 11:00:00
+date:   2017-06-04 15:40:00
 mathjax: false
 ---
 

@@ -3,7 +3,6 @@ layout: page
 mathjax: true
 comments: true
 title: Hacker's guide to Neural Networks
-permalink: /neuralnets/
 ---
 
 Hi there, I'm a [CS PhD student at Stanford](http://cs.stanford.edu/people/karpathy/). I've worked on Deep Learning for a few years as part of my research and among several of my related pet projects is [ConvNetJS](http://convnetjs.com) - a Javascript library for training Neural Networks. Javascript allows one to nicely visualize what's going on and to play around with the various hyperparameter settings, but I still regularly hear from people who ask for a more thorough treatment of the topic. This article (which I plan to slowly expand out to lengths of a few book chapters) is my humble attempt. It's on web instead of PDF because all books should be, and eventually it will hopefully include animations/demos etc.

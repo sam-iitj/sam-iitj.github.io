@@ -23,6 +23,6 @@ This is a 3 part blog series. We will see how to deploy a ML model as a microser
 Microserivce is an architecture pattern. It can best be thought as being completely opposite of Monolithic architecture ([problems](https://www.thoughtworks.com/insights/blog/monoliths-are-bad-design-and-you-know-it)). The central idea is to break the system/applications into small chunks(services) based on functionality. Each chunk does a specicifc job and does only that. These services talk to each other using HTTP/REST (synchronous or asynchronous). Want to take a deep dive ? I suggest read [quora answer](https://www.quora.com/What-is-Microservices-Architecture) and [Martin Fowler's article](https://www.martinfowler.com/articles/microservices.html).
 
 
-Part 1 - Flask
-Part 2 - Falcon
-Part 3 - Notebook
+	Part 1 - Flask   
+	Part 2 - Falcon   
+	Part 3 - Notebook    

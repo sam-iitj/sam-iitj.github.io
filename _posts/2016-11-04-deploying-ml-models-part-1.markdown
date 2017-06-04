@@ -79,8 +79,65 @@ There are a couple of terms that are part and parcel on micro services. Lets qui
 
     2) API Endpoint :It's one end of a communication channel, so often this would be represented as the URL of a server or service. In our example "http://127.0.0.1:5000/1"      
     
-    3) REST :underlying architectural principle of the web. Read these awesome [stackoverflow answer](https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming/671132#671132) and this brilliant [post](http://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife) from Ryan Tomayko and this [post](https://martinfowler.com/articles/richardsonMaturityModel.html) from Martin Fowler to understand the same.     
+    3) REST :underlying architectural principle of the web. 
+    Read these awesome [stackoverflow answer](https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming/671132#671132) and this brilliant [post](http://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife) from Ryan Tomayko and this [post](https://martinfowler.com/articles/richardsonMaturityModel.html) from Martin Fowler to understand the same.     
 
 In nutshell, you need to have - GET, POST, PUT, DELETE.
 
 Lets add this to our [code](https://github.com/anujgupta82/Musings/blob/master/flask/RESTful_app.py). To see this in action, run the server (like previously), go to terminal and type
+
+```python
+curl -i http://localhost:5000/tasks
+```
+
+or 
+
+```python
+curl -i -X GET http://localhost:5000/tasks
+```
+
+Both the commands will give same output:
+
+<div class="imgcap">
+<img src="/assets/ml_models_1/image_3.png">
+<div class="thecap">GET request</div>
+</div>
+
+
+Your server terminal will show "200" (success) for both the requests.
+
+<div class="imgcap">
+<img src="/assets/ml_models_1/image_4.png">
+<div class="thecap">200 – success</div>
+</div>
+
+#### RESTful App
+
+Lets add other parts of RESTful to out code. Here it is. To see this in action, run the server (like previously), go to terminal and type:
+
+ 	1) Get All tasks:
+ 	```python
+ 	curl -i http://localhost:5000/tasks/
+	```
+
+ 	2) Get a specific task:
+ 	```python
+ 	curl -i http://localhost:5000/tasks/2
+	```
+
+	<div class="imgcap">
+	<img src="/assets/ml_models_1/image_5.png">
+	<div class="thecap">Get task with id=2</div>
+	</div>
+
+	Since there is no task with id=4, try this:
+	```python
+	curl -i http://localhost:5000/tasks/4
+	```
+
+	<div class="imgcap">
+	<img src="/assets/ml_models_1/image_6.png">
+	<div class="thecap">Error. Task with id=4 does not exists</div>
+	</div>
+
+

@@ -70,3 +70,17 @@ This should fire the function index_1() function and give the following output o
 </div>
 
 Like wise http://127.0.0.1:5000/2 should work. This is a simple flask application. (Oh yeah! this sounds easy, lets move on)
+
+#### REST (###### in peace)
+
+There are a couple of terms that are part and parcel on micro services. Lets quickly  understand something about them.
+
+    1) API : Application Program Interface - set of routines, protocols, and tools for building software applications.     
+
+    2) API Endpoint :It's one end of a communication channel, so often this would be represented as the URL of a server or service. In our example "http://127.0.0.1:5000/1"      
+    
+    3) REST :underlying architectural principle of the web. Read these awesome [stackoverflow answer](https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming/671132#671132) and this brilliant [post](http://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife) from Ryan Tomayko and this [post](https://martinfowler.com/articles/richardsonMaturityModel.html) from Martin Fowler to understand the same.     
+
+In nutshell, you need to have - GET, POST, PUT, DELETE.
+
+Lets add this to our [code](https://github.com/anujgupta82/Musings/blob/master/flask/RESTful_app.py). To see this in action, run the server (like previously), go to terminal and type

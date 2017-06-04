@@ -1,11 +1,11 @@
 # Site settings
-title: Andrej Karpathy blog
+title: Anuj Gupta blog
 email: 
-description: "Musings of a Computer Scientist."
+description: "datachurning"
 baseurl: ""
-url: "http://karpathy.github.io"
-twitter_username: karpathy
-github_username:  karpathy
+url: "https://anujgupta82.github.io/"
+twitter_username: anujgupta82
+github_username:  anujgupta82
 
 # Build settings
 markdown: kramdown

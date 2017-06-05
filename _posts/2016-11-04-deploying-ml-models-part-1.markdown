@@ -119,26 +119,26 @@ Lets add other parts of RESTful to out code. Here it is. To see this in action, 
 
     ```python
     curl -i http://localhost:5000/tasks/
-    ```
+    ```         
 
  	2) Get a specific task:      
 	```python
 	curl -i http://localhost:5000/tasks/2
-	```
+	```    
 
-	<div class="imgcap">
-	<img src="/assets/ml_models_1/image_5.png">
-	<div class="thecap">Get task with id=2</div>
-	</div>
+<div class="imgcap">
+<img src="/assets/ml_models_1/image_5.png">
+<div class="thecap">Get task with id=2</div>
+</div>
 
 	Since there is no task with id=4, try this:
 	```python
 	curl -i http://localhost:5000/tasks/4
 	```
 
-	<div class="imgcap">
-	<img src="/assets/ml_models_1/image_6.png">
-	<div class="thecap">Error. Task with id=4 does not exists</div>
-	</div>
+<div class="imgcap">
+<img src="/assets/ml_models_1/image_6.png">
+<div class="thecap">Error. Task with id=4 does not exists</div>
+</div>
 
 

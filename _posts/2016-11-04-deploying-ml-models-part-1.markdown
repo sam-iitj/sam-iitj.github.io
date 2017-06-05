@@ -117,14 +117,14 @@ Lets add other parts of RESTful to out code. Here it is. To see this in action, 
 
  	1) Get All tasks:    
 
-    ```python
-    curl -i http://localhost:5000/tasks/
-    ```         
+```python
+curl -i http://localhost:5000/tasks/
+```         
 
  	2) Get a specific task:      
-	```python
-	curl -i http://localhost:5000/tasks/2
-	```    
+```python
+curl -i http://localhost:5000/tasks/2
+```    
 
 <div class="imgcap">
 <img src="/assets/ml_models_1/image_5.png">

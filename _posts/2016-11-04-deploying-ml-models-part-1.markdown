@@ -111,7 +111,7 @@ Your server terminal will show "200" (success) for both the requests.
 <div class="thecap">200 – success</div>
 </div>
 
-#### RESTful App
+#### **RESTful App**
 
 Lets add other parts of RESTful to out code. Here it is. To see this in action, run the server (like previously), go to terminal and type:
 

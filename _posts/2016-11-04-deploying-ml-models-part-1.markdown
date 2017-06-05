@@ -71,7 +71,7 @@ This should fire the function index_1() function and give the following output o
 
 Like wise http://127.0.0.1:5000/2 should work. This is a simple flask application. (Oh yeah! this sounds easy, lets move on)
 
-#### REST (###### in peace)
+#### REST (in peace)
 
 There are a couple of terms that are part and parcel on micro services. Lets quickly  understand something about them.
 

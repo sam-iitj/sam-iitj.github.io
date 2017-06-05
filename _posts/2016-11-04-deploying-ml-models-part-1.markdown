@@ -132,7 +132,7 @@ curl -i http://localhost:5000/tasks/2
 <div class="thecap">Get task with id=2</div>
 </div>
 
-	Since there is no task with id=4, lets see what happens when we try to get that:
+	Since there is no task with id=4, lets see what happens when we try to get that:    
 
 ```python
 curl -i http://localhost:5000/tasks/4

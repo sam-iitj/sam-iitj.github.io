@@ -121,7 +121,8 @@ Lets add other parts of RESTful to out code. Here it is. To see this in action, 
 curl -i http://localhost:5000/tasks/
 ```         
 
- 	2) Get a specific task:      
+ 	2) Get a specific task:
+
 ```python
 curl -i http://localhost:5000/tasks/2
 ```    
@@ -132,9 +133,10 @@ curl -i http://localhost:5000/tasks/2
 </div>
 
 	Since there is no task with id=4, try this:
-	```python
-	curl -i http://localhost:5000/tasks/4
-	```
+	
+```python
+curl -i http://localhost:5000/tasks/4
+```
 
 <div class="imgcap">
 <img src="/assets/ml_models_1/image_6.png">

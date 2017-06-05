@@ -144,13 +144,13 @@ curl -i http://localhost:5000/tasks/4
 </div>
 
 
-3) Add a task:
+	3) Add a task:     
 
 ```python
 curl -i -H "Content-Type: application/json" -X POST -d '{"title":"Read a book"}' http://localhost:5000/tasks/
-```
+```     
 
-4) Update a specific task:
+	4) Update a specific task:     
 
 ```python
 curl -i -H "Content-Type: application/json" -X PUT -d '{"done":true}' http://localhost:5000/tasks/2
@@ -158,16 +158,16 @@ curl -i -H "Content-Type: application/json" -X PUT -d '{"done":true}' http://loc
 <div class="imgcap">
 <img src="/assets/ml_models_1/image_7.png">
 <div class="thecap">Task 2's status is updated ['done':true]</div>
-</div>
+</div>     
 
-5) Delete a specific task:
+5) Delete a specific task:     
 
 ```python
 curl -i -X DELETE http://localhost:5000/tasks/2
-``` 
+```     
 <div class="imgcap">
 <img src="/assets/ml_models_1/image_8.png">
 <div class="thecap">task with id=2 successfully deleted.</div>
 </div>
 
-Source: Large part of the code comes from Miguel Grinberg awesome [post](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask).
+Source: Large part of the code comes from Miguel Grinberg awesome [post](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask).      

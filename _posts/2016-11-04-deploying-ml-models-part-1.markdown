@@ -130,7 +130,7 @@ curl -i http://localhost:5000/tasks/2
 <div class="imgcap">
 <img src="/assets/ml_models_1/image_5.png">
 <div class="thecap">Get task with id=2</div>
-</div>
+</div>    
 
 Since there is no task with id=4, lets see what happens when we try to get that:    
 

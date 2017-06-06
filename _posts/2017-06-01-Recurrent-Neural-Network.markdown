@@ -4,7 +4,7 @@ comments: true
 title:  "Parity problem with RNN"
 excerpt: "Parity problem with RNN"
 date:   2017-06-01 15:40:00
-mathjax: false
+mathjax: true
 ---
 
 #### Parity problem with RNN

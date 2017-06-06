@@ -362,7 +362,7 @@ gru = parity_gru()
 
 
 
-![png](../assets/rnn/output_14_1.png)
+![png](/assets/rnn/output_14_1.png)
 
 
 
@@ -564,7 +564,7 @@ lstm = parity_lstm()
 
 
 
-![png](../assets/rnn/output_21_1.png)
+![png](/assets/rnn/output_21_1.png)
 
 
 

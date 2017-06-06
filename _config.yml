@@ -5,7 +5,7 @@ description: "Deep Learning Tutorials"
 baseurl: ""
 url: "https://samiitj.github.io/"
 twitter_username: sam-iitj
-github_username:  samiitj
+github_username:  @Satyam8989
 
 # Build settings
 markdown: kramdown

@@ -28,12 +28,14 @@ from theano import pp
 from IPython.display import display, Math, Latex
 ```
 
-The idea behing a basic Recurrent Neural Network is to have a unit which can take into account the past while processing the new input. So, the idea is that each state of the RNN unit is a function of the current input $x_{t}$ as well as the previous state of the system $h_{t-1}$.
+The idea behing a basic Recurrent Neural Network is to have a unit which can take into account the past while processing the new input. So, the idea is that each state of the RNN unit is a function of the current input $$x_{t}$$ as well as the previous state of the system $$h_{t-1}$$.
+
 $$y(t) = f(x_{t-1}, h_{t-1})$$
 
 Here's the implementation for a basic Recurrent Neural Network. 
 
 $$h_{t} = x_{t}^TW_{x} + h_{t-1}^TW_{h} + b_{h}$$
+
 $$y_{t} = softmax(h_{t}^TW_{o} + b_{o})$$
 
 ##### RNN

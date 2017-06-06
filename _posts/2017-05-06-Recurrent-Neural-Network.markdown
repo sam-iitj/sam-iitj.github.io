@@ -207,6 +207,10 @@ rnn = parity()
 
 
 
+<div class="imgcap">
+<img src="/assets/rnn/output_7_1.png">
+<div class="thecap">Flask Server up and running</div>
+</div>
 ![png](../assets/rnn/output_7_1.png)
 
 

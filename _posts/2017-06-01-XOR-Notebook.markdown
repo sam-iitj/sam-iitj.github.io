@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: true
-title:  "Parity problem with RNN"
-excerpt: "Parity problem with RNN"
+title:  "Classifier for XOR in Theano"
+excerpt: "Classifier for XOR in Theano"
 date:   2017-06-01 15:40:00
 mathjax: true
 ---

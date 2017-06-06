@@ -207,7 +207,7 @@ rnn = parity()
 
 
 
-![png](/assets/rnn/output_7_1.png)
+![png](https://github.com/sam-iitj/DeepLearning/blob/master/assets/rnn/output_7_1.png)
 
 
 Once, the rnn unit has learned the function we are trying to learn. We try some arbitrary examples just to see what parity is assigns to the sequence. As we can see below, the rnn unit is able to correctly tell the parity as we go from left to right in the sequence. 

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Parity problem with RNN"
 excerpt: "Parity problem with RNN"
-date:   2016-11-04 15:40:00
+date:   2017-05-05 15:40:00
 mathjax: false
 ---
 

@@ -228,7 +228,7 @@ plot_decision_boundary(lambda x: prediction(x))
 ```
 
 
-![png](/assets/classifier/aside>output_23_0.png)
+![png](/assets/classifier/output_23_0.png)
 
 
 #### And gate 

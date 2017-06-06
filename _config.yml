@@ -1,11 +1,11 @@
 # Site settings
-title: Anuj Gupta blog
+title: Satyam Saxena blog
 email: 
-description: "datachurning"
+description: "Deep Learning Tutorials"
 baseurl: ""
-url: "https://anujgupta82.github.io/"
-twitter_username: anujgupta82
-github_username:  anujgupta82
+url: "https://samiitj.github.io/"
+twitter_username: samiitj
+github_username:  samiitj
 
 # Build settings
 markdown: kramdown
